@@ -17,18 +17,5 @@ Steps:
 '''
 # [4,9,5,2,6,3,9,9,1,2,3,8,7,2,6,2,3,9]
 
-def s_w(arr):
-  # variable to keep track of highest amount 
-  height_amount = 0
-  # variable for two pointer indices
-  i,j = 0, i+5
-
-  while j < len(arr) - 1:
-    print(j)
-    j+=1
-    i+=1
-  
-  # return highest
-s_w([4,9,5,2,6,3,9,9,1,2,3,8,7,2,6,2,3,9])
-
+# COMPLETE HERE: 
 
