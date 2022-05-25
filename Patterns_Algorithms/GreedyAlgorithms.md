@@ -1,0 +1,5 @@
+## Greedy Algorithm 
+
+### Explanation 
+
+> 

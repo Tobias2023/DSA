@@ -1,7 +1,13 @@
 # How-to Guide/Resources 
 
 * [How to implement guide](https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples?msclkid=915742d1c0bd11ec8e47a978392db6b0)
-* [How to guide](https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-3) 
+* [How to guide](https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-3)
+ * [How to guide (JS)](https://dev.to/procode/sliding-window-technique-from-o-n-to-o-n-3la3) 
+ * [Effective LeetCode: Understanding the Sliding Window Pattern
+](https://blog.reachsumit.com/posts/2020/10/leetcode-sliding-window/)
+ * [Geeks for geeks - Most Helpful](https://www.geeksforgeeks.org/window-sliding-technique/)
+ * [Byte by Byte Video](https://www.youtube.com/watch?v=GcW4mgmgSbw)
+
 
 ### Visual
 
@@ -16,9 +22,18 @@
           [f g h]
 ```
 
+### List comprehension template
+
+```
+arr = [2, 3, 5, 7, 11, 13]
+result = [arr[i:i+k] for i in range(len(arr)-k+1)]
+
+```
+
 ### Template
 
 ```
+
 # start & end of sliding window: |start-> ... end->|
 # short version of sliding window, focus on two pointers
 def start_end_sliding_window(self, seq):
